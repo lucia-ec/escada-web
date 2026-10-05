@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESCADA — Deja tu estela</title>
+<meta name="description" content="Un aroma dulce e intenso para las ocasiones que merecen recordarse. Llegas, te vas, y algo de ti se queda.">
+<meta property="og:title" content="ESCADA — Deja tu estela">
+<meta property="og:description" content="Un aroma dulce e intenso para las ocasiones que merecen recordarse. Llegas, te vas, y algo de ti se queda.">
+<meta property="og:image" content="assets/escada-inicio.jpg">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta name="theme-color" content="#FAF6F1">
+<link rel="stylesheet" href="css/styles.css?v=21">
+<script>
+  // El visor 3D y su descompresor Draco se sirven desde la propia web (sin depender de CDN externos)
+  window.ModelViewerElement = window.ModelViewerElement || {};
+  window.ModelViewerElement.dracoDecoderLocation = new URL('assets/vendor/draco/', document.baseURI).href;
+</script>
+<script type="module" src="assets/vendor/model-viewer.min.js"></script>
+<script src="js/main.js?v=21" defer></script>
+<script>
+  // Sin giro automático si el usuario prefiere movimiento reducido
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    addEventListener('DOMContentLoaded', () => document.querySelector('model-viewer')?.removeAttribute('auto-rotate'));
+  }
+</script>
+</head>
+<body>
+<div id="app">
+<div class="sr" aria-live="polite" data-live=""></div>
+
+<div class="hscene" data-hscene="">
+<section class="hero" id="top" data-hero="" data-mode="title" aria-label="ESCADA Eau de Parfum">
+  <div class="hv">
+    <img src="assets/escada-inicio.jpg" alt="" aria-hidden="true">
+    <canvas class="hcv" aria-hidden="true"></canvas>
+  </div>
+
+  <header class="hdr">
+    <a class="wm" href="#top">ESCADA</a>
+    <div class="meta"><span>Nuevo Eau de Parfum</span><span class="m2">Dulce. Intenso.</span></div>
+    <a class="pill" href="#precios">Comprar</a>
+  </header>
+
+  <div class="htx">
+    <h1 class="h-title"><span class="ht">Deja</span> <span class="ht">tu</span> <span class="ht si">estela</span></h1>
+    <div class="h-sub"><p class="ht">Un aroma dulce e intenso para las ocasiones que merecen recordarse. Llegas, te vas, y algo de ti se queda.</p></div>
+    <div class="fichas">
+      <div class="ficha" data-n="1"><p class="ht si fn">Salida</p><p class="ht fi">Mandarina confitada · Pera · Pimienta rosa</p><p class="ht ff">Los primeros minutos: luminosos.</p></div>
+      <div class="ficha" data-n="2"><p class="ht si fn">Corazón</p><p class="ht fi">Jazmín sambac · Azahar · Praliné</p><p class="ht ff">Lo dulce, con carácter.</p></div>
+      <div class="ficha" data-n="3"><p class="ht si fn">Fondo</p><p class="ht fi">Vainilla bourbon · Ámbar · Haba tonka</p><p class="ht ff">Lo que abraza la piel durante horas.</p></div>
+      <div class="ficha" data-n="4"><p class="ht si fn">Estela</p><p class="ht fi">Vainilla tibia · Ámbar</p><p class="ht ff">Lo que queda en el aire cuando ya te fuiste.</p></div>
+    </div>
+  </div>
+
+  <div class="ctrl" role="group" aria-label="Notas de ESCADA" data-ctrl="" data-state="idle" data-hl="0">
+    <div class="track" aria-hidden="true"></div>
+    <div class="capsule" aria-hidden="true"></div>
+    <div class="anchor" aria-hidden="true"></div>
+    <span class="dv dv1" aria-hidden="true"></span>
+    <span class="dv dv2" aria-hidden="true"></span>
+    <span class="dv dv3" aria-hidden="true"></span>
+    <div class="cells">
+      <div class="cell intro">Descubre las notas →</div>
+      <button class="cell note" type="button" data-i="1"><span class="lw"><span class="lbl">Salida</span><span class="back" aria-hidden="true">Volver</span></span></button>
+      <button class="cell note" type="button" data-i="2"><span class="lw"><span class="lbl">Corazón</span><span class="back" aria-hidden="true">Volver</span></span></button>
+      <button class="cell note" type="button" data-i="3"><span class="lw"><span class="lbl">Fondo</span><span class="back" aria-hidden="true">Volver</span></span></button>
+      <button class="cell note" type="button" data-i="4"><span class="lw"><span class="lbl">Estela</span><span class="back" aria-hidden="true">Volver</span></span></button>
+    </div>
+  </div>
+</section>
+</div>
+
+<main style="background:#FAF6F1;color:#2A0F16">
+
+
+  <section class="story" data-story="" aria-label="Por qué ESCADA">
+    <div class="stage">
+      <div class="trails" aria-hidden="true"></div>
+      <div class="pls">
+        <p class="pl" data-line="0">Hay noches que se recuerdan por un <em class="si">detalle</em></p>
+        <p class="pl" data-line="1">Y hay perfumes que se apagan antes del segundo <em class="si">brindis</em></p>
+        <p class="pl" data-line="2">Una ocasión especial merece algo que dure más que la ocasión.</p>
+      </div>
+      <div class="st-bot" aria-hidden="true">
+        <div style="position:relative;height:1px;background:rgb(42 15 22 / 0.12)"><div data-bar="" style="position:absolute;left:0;top:0;bottom:0;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,#F4A93B,#F37A45 55%,#E0356E)"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="occ" aria-labelledby="occ-h" data-occ="">
+    <div class="occ-grid">
+      <div class="occ-photos" data-dif="">
+        <figure class="occ-ph a on"><img src="assets/mujer-escada.jpg" alt="Mujer con los ojos cerrados que se aplica ESCADA en el cuello, con la bruma del perfume en el aire" width="1200" height="1499" loading="lazy" decoding="async"></figure>
+        <figure class="occ-ph b"><img src="assets/mujer-escada-2.jpg" alt="Mujer sentada ante un tocador al atardecer, aplicándose ESCADA en la muñeca antes de salir" width="864" height="1152" loading="lazy" decoding="async"></figure>
+        <figure class="occ-ph c"><img src="assets/mujer-escada-3.jpg" alt="Mujer en una terraza de noche, con luces de fiesta, mostrando el frasco de ESCADA" width="864" height="1152" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="occ-body">
+        <h2 id="occ-h" data-dif="" style="margin:0 0 clamp(20px,2.6vw,32px);font-size:clamp(30px,3.5vw,46px);font-weight:500;letter-spacing:-0.04em;line-height:0.95;text-wrap:balance">¿Para qué <em class="si">ocasión?</em></h2>
+        <ul class="occ-list" data-dif="">
+        <li data-photo="0" class="occ-item open">
+          <button class="occ-btn" type="button" id="occ-b0" aria-expanded="true" aria-controls="occ-p0" data-t="La boda de tu mejor amiga"><span>La boda de tu mejor amiga</span><i aria-hidden="true">✦</i></button>
+          <div class="occ-panel" id="occ-p0" role="region" aria-labelledby="occ-b0"><p>Que te encuentren entre cientos de abrazos.</p></div>
+        </li>
+        <li data-photo="1" class="occ-item">
+          <button class="occ-btn" type="button" id="occ-b1" aria-expanded="false" aria-controls="occ-p1" data-t="Una primera cita"><span>Una primera cita</span><i aria-hidden="true">✦</i></button>
+          <div class="occ-panel" id="occ-p1" role="region" aria-labelledby="occ-b1"><p>Que se acuerde de ti cuando llegue a casa.</p></div>
+        </li>
+        <li data-photo="0" class="occ-item">
+          <button class="occ-btn" type="button" id="occ-b2" aria-expanded="false" aria-controls="occ-p2" data-t="El reencuentro"><span>El reencuentro</span><i aria-hidden="true">✦</i></button>
+          <div class="occ-panel" id="occ-p2" role="region" aria-labelledby="occ-b2"><p>Que huela a todo lo que os habéis echado de menos.</p></div>
+        </li>
+        <li data-photo="1" class="occ-item">
+          <button class="occ-btn" type="button" id="occ-b3" aria-expanded="false" aria-controls="occ-p3" data-t="La cena de aniversario"><span>La cena de aniversario</span><i aria-hidden="true">✦</i></button>
+          <div class="occ-panel" id="occ-p3" role="region" aria-labelledby="occ-b3"><p>Que lo de siempre vuelva a sentirse nuevo.</p></div>
+        </li>
+        <li data-photo="2" class="occ-item">
+          <button class="occ-btn" type="button" id="occ-b4" aria-expanded="false" aria-controls="occ-p4" data-t="El brindis de fin de año"><span>El brindis de fin de año</span><i aria-hidden="true">✦</i></button>
+          <div class="occ-panel" id="occ-p4" role="region" aria-labelledby="occ-b4"><p>Que el último minuto del año sea tuyo.</p></div>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div aria-hidden="true" style="max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box"><div class="wave"></div></div>
+
+  <section id="notas" class="nscene" aria-labelledby="notas-h" data-nscene="">
+    <div class="nstage">
+    <div class="norb norb1" aria-hidden="true"></div>
+    <div class="norb norb2" aria-hidden="true"></div>
+    <div class="norb norb3" aria-hidden="true"></div>
+    <div class="ngrid">
+    <div class="nslides">
+    <div class="nslide" data-slide="0">
+      <p class="neyebrow"><span aria-hidden="true">✦</span>Anatomía de una estela<span aria-hidden="true">✦</span></p>
+      <h2 id="notas-h" style="margin:0;font-size:clamp(36px,min(4.4vw,7.4vh),64px);font-weight:500;letter-spacing:-0.04em;line-height:0.92;text-wrap:balance">El perfume no se apaga: <em class="si nshine">se transforma.</em></h2>
+      <p class="nintro">Una fragancia no es una nota: es una historia que evoluciona sobre tu piel. Gira el dial y recorre los tres actos de la estela, del primer destello al recuerdo del día siguiente.</p>
+    <div class="npanel" data-notas-dial="">
+      <div class="ndial">
+        <svg class="nsvg" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+          <circle class="nticks" cx="50" cy="50" r="48.5" pathLength="72" />
+          <circle class="nring" cx="50" cy="50" r="44" />
+          <g class="norbit"><circle class="norbit-dot" cx="50" cy="6.5" r="1.4" /></g>
+          <circle class="narc" data-a="0" cx="50" cy="50" r="44" pathLength="100" stroke="#F4A93B" transform="rotate(-90 50 50)" />
+          <circle class="narc" data-a="1" cx="50" cy="50" r="44" pathLength="100" stroke="#E0356E" transform="rotate(3.6 50 50)" />
+          <circle class="narc" data-a="2" cx="50" cy="50" r="44" pathLength="100" stroke="#C9A24B" transform="rotate(147.6 50 50)" />
+        </svg>
+        <div class="ncore" data-phase="0">
+          <p class="ntitle si">El destello</p>
+          <p class="nmicro">Luminosa. Efervescente. Tuya.</p>
+        </div>
+      </div>
+      <div class="npanel-side">
+        <div class="ntabs" role="tablist" aria-label="Actos de la estela">
+          <button class="ntab" type="button" role="tab" id="ntab-0" aria-selected="true" aria-controls="npanel-body" data-p="0"><i aria-hidden="true"></i>Salida</button>
+          <button class="ntab" type="button" role="tab" id="ntab-1" aria-selected="false" aria-controls="npanel-body" data-p="1" tabindex="-1"><i aria-hidden="true"></i>Corazón</button>
+          <button class="ntab" type="button" role="tab" id="ntab-2" aria-selected="false" aria-controls="npanel-body" data-p="2" tabindex="-1"><i aria-hidden="true"></i>Fondo</button>
+        </div>
+        <div class="nbody" id="npanel-body" role="tabpanel" aria-labelledby="ntab-0">
+          <p class="nline"></p>
+          <div class="nchips"></div>
+        </div>
+        <div class="nrail" aria-hidden="true">
+          <span class="nstation" data-s="0"><i></i><b>Llegada</b><small>0–15 min</small></span>
+          <span class="nstation" data-s="1"><i></i><b>Noche</b><small>15 min–3 h</small></span>
+          <span class="nstation" data-s="2"><i></i><b>Después</b><small>+3 h</small></span>
+        </div>
+      </div>
+      <span class="sr nlive" aria-live="polite"></span>
+    </div>
+    </div>
+    <section class="nslide ritual" id="ritual" data-slide="1" aria-labelledby="ritual-h" data-ritual="">
+      <p class="neyebrow"><span aria-hidden="true">✦</span>El ritual<span aria-hidden="true">✦</span></p>
+      <h2 id="ritual-h" style="margin:0;font-size:clamp(36px,min(4.4vw,7.4vh),64px);font-weight:500;letter-spacing:-0.04em;line-height:0.92;text-wrap:balance">Dónde dejar tu <em class="si">estela.</em></h2>
+      <p class="nintro">El calor de la piel hace el resto. Aplícalo donde late el pulso y deja que se mueva contigo.</p>
+      <div class="rtrack">
+        <span class="wave-v rline" aria-hidden="true"></span>
+        <ol class="rlist">
+          <li class="rpt" data-rpt="0">
+            <span class="rpulse" aria-hidden="true"><i></i><i></i><i></i></span>
+            <div class="rtxt"><p class="rnum">01</p><h3>Muñecas</h3><p>Donde late el pulso. Sin frotar: así no rompes las notas de salida.</p></div>
+          </li>
+          <li class="rpt" data-rpt="1">
+            <span class="rpulse" aria-hidden="true"><i></i><i></i><i></i></span>
+            <div class="rtxt"><p class="rnum">02</p><h3>Cuello</h3><p>Detrás de las orejas y en la base del cuello, donde el calor la despierta.</p></div>
+          </li>
+          <li class="rpt" data-rpt="2">
+            <span class="rpulse" aria-hidden="true"><i></i><i></i><i></i></span>
+            <div class="rtxt"><p class="rnum">03</p><h3>Pelo</h3><p>Pulveriza al aire y cruza la bruma: el pelo guarda el aroma y lo mueve contigo.</p></div>
+          </li>
+          <li class="rpt" data-rpt="3">
+            <span class="rpulse" aria-hidden="true"><i></i><i></i><i></i></span>
+            <div class="rtxt"><p class="rnum">04</p><h3>Ropa</h3><p>Sobre el abrigo o la bufanda. La estela sigue ahí a la mañana siguiente.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+    </div>
+    <div class="nbottle" data-nstick="">
+      <div class="nfrasco-halo" aria-hidden="true"></div>
+      <model-viewer
+        src="assets/models/escada_yum_me_sunny.glb"
+        ios-src="assets/models/escada_yum_me_sunny.usdz"
+        alt="Frasco de perfume Escada Yum Me, Sunny! en 3D girando"
+        auto-rotate
+        auto-rotate-delay="0"
+        rotation-per-second="18deg"
+        camera-orbit="0deg 82deg auto"
+        field-of-view="22deg"
+        interaction-prompt="none"
+        disable-zoom
+        disable-pan
+        disable-tap
+        environment-image="assets/models/estudio.hdr"
+        tone-mapping="none"
+        exposure="1"
+        shadow-intensity="0"
+        loading="lazy"
+        style="position:absolute;inset:0;pointer-events:none;width:100%;height:100%;background:transparent;--poster-color:transparent;--progress-bar-height:0px;--progress-bar-color:transparent">
+        <div slot="progress-bar" hidden></div>
+      </model-viewer>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <div aria-hidden="true" style="max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box"><div class="wave"></div></div>
+
+  <section aria-labelledby="test-h" style="padding:clamp(96px,14vw,180px) 0;overflow:hidden">
+    <div style="max-width:1120px;margin:0 auto clamp(40px,5vw,64px);padding:0 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:24px">
+      <h2 id="test-h" data-dif="" style="margin:0;font-size:clamp(40px,5.4vw,72px);font-weight:500;letter-spacing:-0.04em;line-height:0.92">Lo que <em class="si">dejan</em> al pasar.</h2>
+      <p data-dif="" style="margin:0;display:flex;align-items:baseline;gap:12px;font-size:16px"><span style="font-size:clamp(40px,4vw,56px);font-weight:500;letter-spacing:-0.04em;line-height:1">4,9</span><span><span aria-hidden="true" style="color:#C4265A;letter-spacing:0.18em">★★★★★</span><span style="display:block;color:rgb(42 15 22 / 0.72)">media de reseñas</span></span></p>
+    </div>
+    <div class="rv-wrap" data-dif="">
+      <div class="rv-track">
+        <figure class="rv">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+            <span aria-label="5 de 5 estrellas" role="img" style="font-size:16px;letter-spacing:0.18em;color:#C4265A;line-height:1">★★★★★</span>
+            <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:rgb(42 15 22 / 0.72)">Compra verificada</span>
+          </div>
+          <blockquote class="si" style="margin:0;font-size:clamp(22px,2.2vw,28px);line-height:1.2;text-wrap:pretty">“Fui a una boda y tres personas me preguntaron qué llevaba puesto. Esa es mi reseña.”</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto;padding-top:20px;border-top:1px solid rgb(42 15 22 / 0.1)">
+            <span aria-hidden="true" style="flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#F4A93B 0%,#F37A45 55%,#E0356E 100%);color:#2A0F16;font-size:14px;font-weight:600;letter-spacing:0.02em">CM</span>
+            <span style="font-size:14px;line-height:1.4"><span style="display:block;font-weight:600">Carla Méndez</span><span style="display:block;color:rgb(42 15 22 / 0.72)">directora de arte · 50 ml</span></span>
+          </figcaption>
+        </figure>
+        <figure class="rv">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+            <span aria-label="5 de 5 estrellas" role="img" style="font-size:16px;letter-spacing:0.18em;color:#C4265A;line-height:1">★★★★★</span>
+            <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:rgb(42 15 22 / 0.72)">Compra verificada</span>
+          </div>
+          <blockquote class="si" style="margin:0;font-size:clamp(22px,2.2vw,28px);line-height:1.2;text-wrap:pretty">“Dulce, pero con carácter. Lo reservo para las noches que importan.”</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto;padding-top:20px;border-top:1px solid rgb(42 15 22 / 0.1)">
+            <span aria-hidden="true" style="flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#F4A93B 0%,#F37A45 55%,#E0356E 100%);color:#2A0F16;font-size:14px;font-weight:600;letter-spacing:0.02em">DR</span>
+            <span style="font-size:14px;line-height:1.4"><span style="display:block;font-weight:600">Daniel Ríos</span><span style="display:block;color:rgb(42 15 22 / 0.72)">arquitecto · 50 ml</span></span>
+          </figcaption>
+        </figure>
+        <figure class="rv">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+            <span aria-label="5 de 5 estrellas" role="img" style="font-size:16px;letter-spacing:0.18em;color:#C4265A;line-height:1">★★★★★</span>
+            <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:rgb(42 15 22 / 0.72)">Compra verificada</span>
+          </div>
+          <blockquote class="si" style="margin:0;font-size:clamp(22px,2.2vw,28px);line-height:1.2;text-wrap:pretty">“Al día siguiente, mi abrigo todavía olía a ESCADA.”</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto;padding-top:20px;border-top:1px solid rgb(42 15 22 / 0.1)">
+            <span aria-hidden="true" style="flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#F4A93B 0%,#F37A45 55%,#E0356E 100%);color:#2A0F16;font-size:14px;font-weight:600;letter-spacing:0.02em">IT</span>
+            <span style="font-size:14px;line-height:1.4"><span style="display:block;font-weight:600">Inés Torres</span><span style="display:block;color:rgb(42 15 22 / 0.72)">fotógrafa · 50 ml</span></span>
+          </figcaption>
+        </figure>
+        <figure class="rv" aria-hidden="true">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+            <span aria-label="5 de 5 estrellas" role="img" style="font-size:16px;letter-spacing:0.18em;color:#C4265A;line-height:1">★★★★★</span>
+            <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:rgb(42 15 22 / 0.72)">Compra verificada</span>
+          </div>
+          <blockquote class="si" style="margin:0;font-size:clamp(22px,2.2vw,28px);line-height:1.2;text-wrap:pretty">“Fui a una boda y tres personas me preguntaron qué llevaba puesto. Esa es mi reseña.”</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto;padding-top:20px;border-top:1px solid rgb(42 15 22 / 0.1)">
+            <span aria-hidden="true" style="flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#F4A93B 0%,#F37A45 55%,#E0356E 100%);color:#2A0F16;font-size:14px;font-weight:600;letter-spacing:0.02em">CM</span>
+            <span style="font-size:14px;line-height:1.4"><span style="display:block;font-weight:600">Carla Méndez</span><span style="display:block;color:rgb(42 15 22 / 0.72)">directora de arte · 50 ml</span></span>
+          </figcaption>
+        </figure>
+        <figure class="rv" aria-hidden="true">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+            <span aria-label="5 de 5 estrellas" role="img" style="font-size:16px;letter-spacing:0.18em;color:#C4265A;line-height:1">★★★★★</span>
+            <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:rgb(42 15 22 / 0.72)">Compra verificada</span>
+          </div>
+          <blockquote class="si" style="margin:0;font-size:clamp(22px,2.2vw,28px);line-height:1.2;text-wrap:pretty">“Dulce, pero con carácter. Lo reservo para las noches que importan.”</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto;padding-top:20px;border-top:1px solid rgb(42 15 22 / 0.1)">
+            <span aria-hidden="true" style="flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#F4A93B 0%,#F37A45 55%,#E0356E 100%);color:#2A0F16;font-size:14px;font-weight:600;letter-spacing:0.02em">DR</span>
+            <span style="font-size:14px;line-height:1.4"><span style="display:block;font-weight:600">Daniel Ríos</span><span style="display:block;color:rgb(42 15 22 / 0.72)">arquitecto · 50 ml</span></span>
+          </figcaption>
+        </figure>
+        <figure class="rv" aria-hidden="true">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+            <span aria-label="5 de 5 estrellas" role="img" style="font-size:16px;letter-spacing:0.18em;color:#C4265A;line-height:1">★★★★★</span>
+            <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:rgb(42 15 22 / 0.72)">Compra verificada</span>
+          </div>
+          <blockquote class="si" style="margin:0;font-size:clamp(22px,2.2vw,28px);line-height:1.2;text-wrap:pretty">“Al día siguiente, mi abrigo todavía olía a ESCADA.”</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto;padding-top:20px;border-top:1px solid rgb(42 15 22 / 0.1)">
+            <span aria-hidden="true" style="flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#F4A93B 0%,#F37A45 55%,#E0356E 100%);color:#2A0F16;font-size:14px;font-weight:600;letter-spacing:0.02em">IT</span>
+            <span style="font-size:14px;line-height:1.4"><span style="display:block;font-weight:600">Inés Torres</span><span style="display:block;color:rgb(42 15 22 / 0.72)">fotógrafa · 50 ml</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section id="precios" aria-labelledby="precios-h" style="position:relative;min-height:100svh;box-sizing:border-box;display:grid;place-items:center;padding:clamp(96px,12vw,140px) 24px;background:#CFDDE8 url(&quot;assets/escada-final.jpg&quot;) center / cover no-repeat;color:#2A0F16">
+  <div class="gl" style="width:min(460px,100%)">
+    <div style="position:relative;z-index:1;display:grid;gap:24px">
+      <h2 id="precios-h" data-dif="" style="margin:0;font-size:clamp(34px,4vw,52px);font-weight:500;letter-spacing:-0.04em;line-height:0.92;text-wrap:balance">Tu próxima ocasión empieza <em class="si">aquí.</em></h2>
+      <div data-dif="" role="radiogroup" aria-label="Tamaño" data-sizes="" style="display:flex;flex-wrap:wrap;gap:10px">
+        <button class="size" type="button" role="radio" aria-checked="true">50 ml — 79 €</button>
+        <button class="size" type="button" role="radio" aria-checked="false">100 ml — 109 €</button>
+      </div>
+      <div data-dif="" style="display:grid;gap:14px">
+        <button class="add" type="button">Añadir a la bolsa</button>
+        <ul class="inc" aria-label="Incluido en tu pedido">
+          <li>Muestra de 1,5 ml incluida en cada pedido</li>
+          <li>Envío gratis desde 60 €</li>
+          <li>Devolución en 30 días</li>
+          <li>Fórmula vegana, sin pruebas en animales</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="dark" style="background:#2A0F16;color:#FAF6F1;padding:clamp(48px,6vw,72px) 24px 28px">
+  <div style="max-width:1120px;margin:0 auto;display:grid;gap:clamp(24px,3.5vw,40px)">
+    <p style="margin:0;font-family:'Instrument Serif',serif;font-size:clamp(28px,3.4vw,44px);line-height:1;letter-spacing:0.12em">ESCADA</p>
+    <nav aria-label="Pie de página">
+      <ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 32px;font-size:16px">
+        <li><a href="#precios" style="display:inline-flex;align-items:center;min-height:44px">Tienda</a></li>
+        <li><a href="#notas" style="display:inline-flex;align-items:center;min-height:44px">Notas</a></li>
+        <li><a href="#" style="display:inline-flex;align-items:center;min-height:44px">Envíos y devoluciones</a></li>
+        <li><a href="#" style="display:inline-flex;align-items:center;min-height:44px">Contacto</a></li>
+        <li><a href="#" style="display:inline-flex;align-items:center;min-height:44px">Instagram</a></li>
+        <li><a href="#" style="display:inline-flex;align-items:center;min-height:44px">TikTok</a></li>
+      </ul>
+    </nav>
+    <p style="margin:0;font-size:14px;color:rgb(250 246 241 / 0.72)">© 2026 ESCADA. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
