@@ -67,13 +67,3 @@ for i,f in enumerate(sorted(glob.glob('/tmp/f/f*.png'))): Image.open(f).convert(
 ```
 
 Si cambia el número de fotogramas, hay que ajustar `N` en `initVideo()` de `js/main.js`.
-
-## Publicar
-
-Se publica **solo el contenido de `escada-web`**. No hace falta subir `serve.mjs` (servidor de desarrollo) ni este README.
-Es una web estática: cualquier hosting sirve (Netlify, Vercel, GitHub Pages, servidor propio).
-
-Antes de publicar:
-- Poner la dirección completa en `og:image` (y añadir `og:url`) en `index.html`: las redes sociales no leen rutas relativas.
-- Sustituir los enlaces de ejemplo del footer (`href="#"`: Envíos y devoluciones, Contacto, Instagram, TikTok).
-- Confirmar con el cliente precios, devoluciones y afirmaciones (vegano, sin pruebas en animales), y sustituir las reseñas de ejemplo por reseñas reales.
