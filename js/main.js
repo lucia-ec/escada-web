@@ -30,7 +30,7 @@
       const n = document.createElement('div');
       n.setAttribute('role', 'status');
       n.style.cssText = 'position:fixed;left:16px;bottom:16px;z-index:60;max-width:min(380px,calc(100vw - 32px));padding:14px 44px 14px 16px;border-radius:16px;background:rgb(250 246 241 / 0.94);color:#2A0F16;border:1px solid rgb(42 15 22 / 0.14);box-shadow:0 18px 40px -20px rgb(42 15 22 / 0.5);font:500 14px/1.45 Manrope,system-ui,sans-serif';
-      n.innerHTML = 'Estás viendo la web como archivo, y así el navegador no deja cargar el <b>modelo 3D</b>. Ábrela con <b>Abrir ESCADA.command</b> (doble clic, en la carpeta Proyecto ESCADA).';
+      n.innerHTML = 'Estás viendo la web como archivo, y así el navegador no deja cargar el <b>modelo 3D</b>. Ábrela desde un servidor local, por ejemplo <b>node serve.mjs 8735</b> y luego http://127.0.0.1:8735/.';
       const x = document.createElement('button');
       x.type = 'button'; x.textContent = '×'; x.setAttribute('aria-label', 'Cerrar aviso');
       x.style.cssText = 'position:absolute;top:6px;right:8px;width:32px;height:32px;border:0;background:none;color:inherit;font:400 22px/1 system-ui;cursor:pointer';
